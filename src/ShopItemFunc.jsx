@@ -1,4 +1,4 @@
-function shopItem({ item }) {
+function ShopItem({ item }) {
   return (
     <div className="main-content">
       <h2>{item.brand}</h2>
@@ -17,4 +17,4 @@ function shopItem({ item }) {
   )
 }
 
-export default shopItem
+export default ShopItem
